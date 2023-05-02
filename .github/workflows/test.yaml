@@ -10,10 +10,9 @@ jobs:
     - name: setp1
       run: echo "Hello world from step1"
     - name: step2
-      run: echo "Hello from step 2"
-  
-  job2:
-    runs-on: windows-latest
-    steps:
-    - name: IP ADDR
-      run: ipconfig
+      run: |
+        echo "hello"
+        echo "World"
+        date
+        pwd
+        ls -al
