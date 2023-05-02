@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: setp1
-      run: echo "Hello world from step1"
+      run: echo "Hello world release branch"
     - name: step2
       run: |
         echo "hello"
