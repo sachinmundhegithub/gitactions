@@ -1,7 +1,10 @@
 name: test-workflow
 
 on:
-  push
+  push:
+    branches: 
+      - "release-branch"
+      - "test-branch"
 
 jobs:
   job1:
@@ -15,4 +18,3 @@ jobs:
         echo "World"
         date
         pwd
-        ls -al
