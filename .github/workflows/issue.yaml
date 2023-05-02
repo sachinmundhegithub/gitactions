@@ -1,4 +1,4 @@
-name: test-workflow
+name: testing-issue
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - "release-branch"
       - "test-branch"
   workflow_dispatch:
-    
+  
 jobs:
   job1:
     runs-on: ubuntu-latest
