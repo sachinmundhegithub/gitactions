@@ -7,5 +7,13 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-    - name: Hello world
-      run: echo "Hello world"
+    - name: setp1
+      run: echo "Hello world from step1"
+    - name: step2
+      run: echo "Hello from step 2"
+  
+  job2:
+    runs-on: windows-latest
+    steps:
+    - name: IP ADDR
+      run: ipconfig
